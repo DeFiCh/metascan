@@ -1,5 +1,5 @@
 # Dockerfile used to build an image for the metascan-api
-FROM node:18.17.0-alpine3.17
+FROM node:20.9.0-alpine3.18
 
 RUN corepack enable pnpm
 RUN pnpm config set auto-install-peers true
